@@ -85,12 +85,10 @@ public class Sign_In extends AppCompatActivity {
             public void onClick(View view) {
                 if( validateUserInput(view)){
 
-                        FirebaseUser user = mAuth.getCurrentUser();
-                        com.example.cv_uploader.Utils.ProgressDialog progressDialog = new com.example.cv_uploader.Utils.ProgressDialog(Sign_In.this);
-                        if(user==null) {
-                            progressDialog.show();
-                            createNewUser(progressDialog);
-                        }
+                    FirebaseUser user = mAuth.getCurrentUser();
+                    com.example.cv_uploader.Utils.ProgressDialog progressDialog = new com.example.cv_uploader.Utils.ProgressDialog(Sign_In.this);
+                    progressDialog.show();
+                    createNewUser(progressDialog);
 
                 }
             }

@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "482025056757",
+    "firebase_url": "https://cvuploader-4d7ae-default-rtdb.firebaseio.com",
     "project_id": "cvuploader-4d7ae",
     "storage_bucket": "cvuploader-4d7ae.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "482025056757-eugd433nq00s7tebmbmfnfrmrpi2v9ho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cv_uploader",
+            "certificate_hash": "7fd2d940b9238851e8b6d0b3ed14945129d447ac"
+          }
+        },
         {
           "client_id": "482025056757-qichrs05kah4b8s8049gihe4ekaafu40.apps.googleusercontent.com",
           "client_type": 3
